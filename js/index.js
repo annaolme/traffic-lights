@@ -1,5 +1,6 @@
 const lights = document.querySelectorAll(".light");
 let currentLight = 0;
+let intervalId;
 
 function switchLights() {
     lights[currentLight].style.display = "none";
@@ -7,4 +8,10 @@ function switchLights() {
     lights[currentLight].style.display = "block";
 }
 
-setInterval(switchLights, 1000);
+document.querySelector("#startBtn").addEventListener("click", function() {
+    intervalId = setInterval(switchLights, 1000);
+});
+
+document.querySelector("#stopBtn").addEventListener("click", function() {
+    clearInterval(intervalId);
+});
