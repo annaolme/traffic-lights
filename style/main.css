@@ -1,0 +1,40 @@
+#traffic-lights {
+    position: relative;
+    height: 250px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.casing {
+    position: absolute;
+    height: 175px;
+    width: 70px;
+    background-color: gray;
+    border-radius: 50%;
+    top: 17.5px;
+    left: 15px;
+}
+
+.light {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    bottom: 35px;
+    left: 15px;
+}
+
+.red {
+    background-color: red;
+    bottom: 120px;
+}
+
+.yellow {
+    background-color: yellow;
+    bottom: 65px;
+}
+
+.green {
+    background-color: green;
+    bottom: 10px;
+}
