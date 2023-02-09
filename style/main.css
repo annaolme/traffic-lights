@@ -38,3 +38,33 @@
     background-color: green;
     bottom: 10px;
 }
+
+
+button {
+    display: block;
+    margin: 20px 490px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#startBtn {
+    background-color: rgb(200, 232, 200);
+    color: white;
+}
+
+#startBtn:active {
+    background-color: darkgreen;
+}
+
+#stopBtn {
+    background-color: rgb(219, 143, 143);
+    color: white;
+}
+
+#stopBtn:active {
+    background-color: darkred;
+}
