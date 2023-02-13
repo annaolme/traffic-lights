@@ -10,7 +10,7 @@
     height: 175px;
     width: 70px;
     background-color: gray;
-    border-radius: 50%;
+    border-radius: 5%;
     top: 17.5px;
     left: 15px;
 }
@@ -41,7 +41,7 @@
 
 button {
     display: block;
-    margin: 20px 530px;
+    margin: 20px 450px;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
